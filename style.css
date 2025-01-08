@@ -63,6 +63,14 @@ select {
     padding: 9px 12px;
     font-weight: 400;
     font-size: 16px;
+    appearance: none;
+    background-image: url(./images/ep_arrow-down.svg);
+    background-repeat: no-repeat;
+    background-position: 90% 50%;
+    background-color: #fff;
+    border: 1px solid #3030304D;
+    border-radius: 5px;
+    
 }
 
 .section-title {
@@ -122,16 +130,26 @@ select {
 
 table {
     /* Стили для таблицы */
+    border-collapse: collapse;
 }
 
 th, td {
     /* Стили для ячеек таблицы */
+    padding: 12px 15px;
+    font-size: 14px;
+    border: 1px solid #95a1bb;
 }
 
 footer {
     /* Стили для футера */
+    background-color: rgba(163, 167, 255, 0.3);
+    padding: 27px 0;
 }
 
 .footer-link {
     /* Стили для футера */
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    color: #2965f1;
 }
