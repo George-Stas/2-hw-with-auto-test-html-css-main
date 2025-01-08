@@ -8,7 +8,8 @@ body {
     font-family: "Inter", serif;
     font-optical-sizing: auto;
     font-style: normal; 
-    box-sizing: border-box;     
+    box-sizing: border-box;  
+    color: #303030;   
 }
 
 header {
@@ -35,7 +36,6 @@ header span {
     /* Стили для заголовка в первой секции */
     font-weight: 700;
     font-size: 48px;
-    color: #303030;
     margin-bottom: 20px;
 }
 
@@ -43,7 +43,6 @@ header span {
     /* Стили для текста в первой секции */
     font-weight: 400;
     font-size: 18px;
-    color: #303030;
 }
 
 .main-image {
@@ -62,19 +61,28 @@ select {
     /* Стили для выпадающего списка */
     width: 150px;
     padding: 9px 12px;
-    background-color: #fff;
+    font-weight: 400;
+    font-size: 16px;
 }
 
 .section-title {
     /* Стили для заголовков во второй секции */
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 25px;
 }
 
 .frameworks-list {
     /* Стили для маркированного списка во второй секции */
+    list-style-image: url(./images/solar_map-arrow-up-bold.svg);
+    padding-left: 25px;
 }
 
 .books-list {
     /* Стили для нумерованного списка во второй секции */
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 20px;
 }
 
 .label {
